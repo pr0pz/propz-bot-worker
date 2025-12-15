@@ -1,0 +1,23 @@
+# dependencies
+/node_modules
+
+# misc
+.DS_Store
+.env
+.vscode/
+.idea/
+.claude/
+.vite/
+deno.lock
+
+._*
+.Spotlight-V100
+.Trashes
+*BotData.sql*
+*.log
+
+dockerfile
+deno-docker.json
+compose.y*ml
+.dockerignore
+REFACTORING.md
