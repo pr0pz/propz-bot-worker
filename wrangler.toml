@@ -1,0 +1,10 @@
+name = "screenshot-worker"
+main = "worker.ts"
+compatibility_date = "2025-01-01"
+
+# Statische Dateien (index.html, JS, CSS, …)
+#assets = { directory = "./public" }
+
+# Browser Rendering Binding + NodeJS-Kompatibilität für Puppeteer
+compatibility_flags = ["nodejs_compat_v2"]
+browser = { binding = "MYBROWSER" }
